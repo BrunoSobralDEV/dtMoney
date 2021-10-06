@@ -12,8 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         --text-title: #363f5f;
         --text-body: #969cb3;
         
-        --background: #F0F2F5;
-        --shape: #ffffff;        
+        --shape: #FFFFFF;        
     }
 
     *{
@@ -33,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     // REM = 1rem = 16px (font-size page)
     body{
-        background: var(---background);
+        background: var(--background);
         -webkit-font-smoothing: antialiased;
     }
 
